@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB464AC71B25C03800EF8226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB464AC61B25C03800EF8226 /* AppDelegate.swift */; };
+		BB464AC91B25C03800EF8226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB464AC81B25C03800EF8226 /* ViewController.swift */; };
+		BB464ACC1B25C03800EF8226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB464ACA1B25C03800EF8226 /* Main.storyboard */; };
+		BB464ACE1B25C03800EF8226 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB464ACD1B25C03800EF8226 /* Images.xcassets */; };
+		BB464AD11B25C03800EF8226 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB464ACF1B25C03800EF8226 /* LaunchScreen.xib */; };
+		BB464ADD1B25C03800EF8226 /* Facebook_DoesAll_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB464ADC1B25C03800EF8226 /* Facebook_DoesAll_AppTests.swift */; };
+		BB464AE71B25C06800EF8226 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB464AE61B25C06800EF8226 /* FacebookSDK.framework */; };
+		BB464AEA1B25D19300EF8226 /* header.m in Sources */ = {isa = PBXBuildFile; fileRef = BB464AE91B25D19300EF8226 /* header.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB464AD71B25C03800EF8226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB464AB91B25C03800EF8226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB464AC01B25C03800EF8226;
+			remoteInfo = "Facebook-DoesAll-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB464AC11B25C03800EF8226 /* Facebook-DoesAll-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facebook-DoesAll-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB464AC51B25C03800EF8226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB464AC61B25C03800EF8226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB464AC81B25C03800EF8226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB464ACB1B25C03800EF8226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB464ACD1B25C03800EF8226 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB464AD01B25C03800EF8226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BB464AD61B25C03800EF8226 /* Facebook-DoesAll-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Facebook-DoesAll-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB464ADB1B25C03800EF8226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB464ADC1B25C03800EF8226 /* Facebook_DoesAll_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facebook_DoesAll_AppTests.swift; sourceTree = "<group>"; };
+		BB464AE61B25C06800EF8226 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		BB464AE81B25D19200EF8226 /* Facebook-DoesAll-App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Facebook-DoesAll-App-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB464AE91B25D19300EF8226 /* header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = header.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB464ABE1B25C03800EF8226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB464AE71B25C06800EF8226 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB464AD31B25C03800EF8226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB464AB81B25C03800EF8226 = {
+			isa = PBXGroup;
+			children = (
+				BB464AC31B25C03800EF8226 /* Facebook-DoesAll-App */,
+				BB464AD91B25C03800EF8226 /* Facebook-DoesAll-AppTests */,
+				BB464AC21B25C03800EF8226 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB464AC21B25C03800EF8226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB464AC11B25C03800EF8226 /* Facebook-DoesAll-App.app */,
+				BB464AD61B25C03800EF8226 /* Facebook-DoesAll-AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB464AC31B25C03800EF8226 /* Facebook-DoesAll-App */ = {
+			isa = PBXGroup;
+			children = (
+				BB464AC61B25C03800EF8226 /* AppDelegate.swift */,
+				BB464AC81B25C03800EF8226 /* ViewController.swift */,
+				BB464ACA1B25C03800EF8226 /* Main.storyboard */,
+				BB464AE61B25C06800EF8226 /* FacebookSDK.framework */,
+				BB464ACD1B25C03800EF8226 /* Images.xcassets */,
+				BB464ACF1B25C03800EF8226 /* LaunchScreen.xib */,
+				BB464AC41B25C03800EF8226 /* Supporting Files */,
+			);
+			path = "Facebook-DoesAll-App";
+			sourceTree = "<group>";
+		};
+		BB464AC41B25C03800EF8226 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB464AC51B25C03800EF8226 /* Info.plist */,
+				BB464AE91B25D19300EF8226 /* header.m */,
+				BB464AE81B25D19200EF8226 /* Facebook-DoesAll-App-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB464AD91B25C03800EF8226 /* Facebook-DoesAll-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB464ADC1B25C03800EF8226 /* Facebook_DoesAll_AppTests.swift */,
+				BB464ADA1B25C03800EF8226 /* Supporting Files */,
+			);
+			path = "Facebook-DoesAll-AppTests";
+			sourceTree = "<group>";
+		};
+		BB464ADA1B25C03800EF8226 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB464ADB1B25C03800EF8226 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB464AC01B25C03800EF8226 /* Facebook-DoesAll-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB464AE01B25C03800EF8226 /* Build configuration list for PBXNativeTarget "Facebook-DoesAll-App" */;
+			buildPhases = (
+				BB464ABD1B25C03800EF8226 /* Sources */,
+				BB464ABE1B25C03800EF8226 /* Frameworks */,
+				BB464ABF1B25C03800EF8226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Facebook-DoesAll-App";
+			productName = "Facebook-DoesAll-App";
+			productReference = BB464AC11B25C03800EF8226 /* Facebook-DoesAll-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB464AD51B25C03800EF8226 /* Facebook-DoesAll-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB464AE31B25C03800EF8226 /* Build configuration list for PBXNativeTarget "Facebook-DoesAll-AppTests" */;
+			buildPhases = (
+				BB464AD21B25C03800EF8226 /* Sources */,
+				BB464AD31B25C03800EF8226 /* Frameworks */,
+				BB464AD41B25C03800EF8226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB464AD81B25C03800EF8226 /* PBXTargetDependency */,
+			);
+			name = "Facebook-DoesAll-AppTests";
+			productName = "Facebook-DoesAll-AppTests";
+			productReference = BB464AD61B25C03800EF8226 /* Facebook-DoesAll-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB464AB91B25C03800EF8226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Casa Wee";
+				TargetAttributes = {
+					BB464AC01B25C03800EF8226 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BB464AD51B25C03800EF8226 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BB464AC01B25C03800EF8226;
+					};
+				};
+			};
+			buildConfigurationList = BB464ABC1B25C03800EF8226 /* Build configuration list for PBXProject "Facebook-DoesAll-App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB464AB81B25C03800EF8226;
+			productRefGroup = BB464AC21B25C03800EF8226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB464AC01B25C03800EF8226 /* Facebook-DoesAll-App */,
+				BB464AD51B25C03800EF8226 /* Facebook-DoesAll-AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB464ABF1B25C03800EF8226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB464ACC1B25C03800EF8226 /* Main.storyboard in Resources */,
+				BB464AD11B25C03800EF8226 /* LaunchScreen.xib in Resources */,
+				BB464ACE1B25C03800EF8226 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB464AD41B25C03800EF8226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB464ABD1B25C03800EF8226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB464AEA1B25D19300EF8226 /* header.m in Sources */,
+				BB464AC91B25C03800EF8226 /* ViewController.swift in Sources */,
+				BB464AC71B25C03800EF8226 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB464AD21B25C03800EF8226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB464ADD1B25C03800EF8226 /* Facebook_DoesAll_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB464AD81B25C03800EF8226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB464AC01B25C03800EF8226 /* Facebook-DoesAll-App */;
+			targetProxy = BB464AD71B25C03800EF8226 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB464ACA1B25C03800EF8226 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB464ACB1B25C03800EF8226 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB464ACF1B25C03800EF8226 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB464AD01B25C03800EF8226 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB464ADE1B25C03800EF8226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB464ADF1B25C03800EF8226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB464AE11B25C03800EF8226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Facebook-DoesAll-App",
+				);
+				INFOPLIST_FILE = "Facebook-DoesAll-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Facebook-DoesAll-App/Facebook-DoesAll-App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB464AE21B25C03800EF8226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Facebook-DoesAll-App",
+				);
+				INFOPLIST_FILE = "Facebook-DoesAll-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Facebook-DoesAll-App/Facebook-DoesAll-App-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		BB464AE41B25C03800EF8226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Facebook-DoesAll-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Facebook-DoesAll-App.app/Facebook-DoesAll-App";
+			};
+			name = Debug;
+		};
+		BB464AE51B25C03800EF8226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Facebook-DoesAll-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Facebook-DoesAll-App.app/Facebook-DoesAll-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB464ABC1B25C03800EF8226 /* Build configuration list for PBXProject "Facebook-DoesAll-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB464ADE1B25C03800EF8226 /* Debug */,
+				BB464ADF1B25C03800EF8226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB464AE01B25C03800EF8226 /* Build configuration list for PBXNativeTarget "Facebook-DoesAll-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB464AE11B25C03800EF8226 /* Debug */,
+				BB464AE21B25C03800EF8226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB464AE31B25C03800EF8226 /* Build configuration list for PBXNativeTarget "Facebook-DoesAll-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB464AE41B25C03800EF8226 /* Debug */,
+				BB464AE51B25C03800EF8226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB464AB91B25C03800EF8226 /* Project object */;
+}
